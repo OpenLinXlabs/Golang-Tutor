@@ -10,9 +10,9 @@ package main
 import "fmt"
 
 func main() {
-	x := 'c' // Declaration + initialization - auto typing
-	var y int   // Declaration - value will be zero
-	y = 10      // Assignment
+	x := 'c'              // Declaration + initialization - auto typing
+	var y int             // Declaration - value will be zero
+	y = 10                // Assignment
 	fmt.Printf("%T\n", x) // Print type of a variable
 	fmt.Println(x)
 	fmt.Printf("%T\n", y)
